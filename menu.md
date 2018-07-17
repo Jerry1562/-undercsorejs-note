@@ -1,5 +1,5 @@
 # 目录
-+ [框架的初始化]
++ [框架的初始化](https://github.com/Jerry1562/-undercsorejs-note/blob/master/note/init/introduction.md)
    + [获取root对象]
 + [集合]
 + [数组]
