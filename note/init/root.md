@@ -34,4 +34,6 @@ _.sum([1,2],console.log);  //=>1  =>2
 var root = typeof global == 'object' && global.global === global && global ||
 	   typeof window == 'object' && window.window === window && window ||
 ```
-在这里，要解析一下`global.global === global`
+这样就可以正确判断浏览器与node环境并取到正确的全局对象了。
+>### Tips
+>`global.global`是Global对象对自身的引用，`window.window`也是同样的道理。之所以要判断`global.global === global`，是为了进一步确认root获取的对象是真正的全局对象。避免开发人员自己定义的`window`或`global`对象被错误的引用。比如在浏览器环境中定义对象`var global = {};`如果没有判断则会被错误引用。
