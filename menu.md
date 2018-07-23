@@ -1,6 +1,6 @@
 # 目录
-+ [框架的初始化](https://github.com/Jerry1562/-undercsorejs-note/blob/master/note/init/introduction.md)
-   + [获取root对象]
++ [框架的初始化](-undercsorejs-note/note/init/introduction.md)
+   + [underscorejs的实现原理](-undercsorejs-note/note/init/root.md)
 + [集合]
 + [数组]
 + [函数]
